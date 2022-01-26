@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+#navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  padding: 0.5rem 5rem;
+  box-shadow: 5px 5px 20px black;
+  background-color: purple;
+}
+
+.navbar .navbar-brand {
+  font-size: 25px;
+  font-weight: 800;
+  color: white !important;
+}
+
+#navbarSupportedContent a {
+  color: white;
+  border-bottom: 2px solid transparent;
+}
+
+#navbarSupportedContent a:hover {
+  border-bottom: 2px solid black;
+}
+
+.navbar-toggler {
+  background-color: white !important;
+}
+
+section {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#home {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url(76763966-.webp);
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+}
+
+#home h1 {
+  font-size: 100px;
+  color: purple;
+  letter-spacing: 3px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 0px 1px 0px #ccc, 0px 2px 0px #ccc, 0px 3px 0px #ccc,
+    0px 4px 0px #ccc, 0px 5px 0px #ccc, 0px 6px 0px #ccc, 0px 7px 0px #ccc;
+}
+
+#home h3 {
+  font-size: 18px;
+  color: white;
+}
+
+#home .input-group {
+  width: 40%;
+}
+
+.name {
+  background-color: #f4f7f9;
+  border-radius: 2px;
+  width: 100%;
+  padding: 10px;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  height: 40px;
+}
+.mail {
+  background-color: #f4f7f9;
+  border-radius: 2px;
+  padding: 10px;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  height: 40px;
+}
+.message {
+  background-color: #f4f7f9;
+  border-radius: 2px;
+  width: 100%;
+  padding: 10px;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  height: 100px;
+}
+.bttn {
+  background-color: purple;
+  color: white;
+  transition: 0.8s;
+  line-height: 50%;
+  width: 100%;
+  padding: 10px;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  height: 35px;
+}
+
+.bttn:hover {
+  background-color: purple;
+  color: white;
+  border-radius: 5px;
+}
+
+.contactus {
+  padding: 100px;
+  margin-bottom: 1em;
+  font-size: 2.5em;
+  margin-block-start: 0.1em;
+  margin-block-end: 0.83;
+  background-image: url(contacttt.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+#cbb {
+  margin-top: -8px;
+  width: 100%;
+  float: right;
+  font-size: 50px;
+  animation-name: cnt;
+  animation-duration: 5s;
+  color: #ffffff;
+  animation-direction: alternate;
+}
+
+@keyframes cnt {
+  0% {
+    width: 300px;
+    color: #ffffff;
+  }
+  50% {
+    color: #a39e9e;
+  }
+  70% {
+    color: #ccc;
+  }
+  100% {
+    color: #ffffff;
+  }
+}
+
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: white;
+  background: purple;
+  text-align: center;
+}
+
+.shop {
+  height: 50vh;
+}
+.cart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid purple;
+  width: 50%;
+
+  margin-left: 25vw;
+}
+.stuff {
+  display: flex;
+  flex-direction: row;
+}
